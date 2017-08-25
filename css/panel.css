@@ -132,19 +132,19 @@ header{
     padding:1vh 0 1vh 0;
 }
 /* for carousel */
+.carousel_section{
+    padding-bottom:20vh;
+}
 .carousel_title{
-    padding:14vh 0 0 10vh;
-    letter-spacing: 2px;
+    padding:20vh 0 0 0;
+    text-align:center;
+    letter-spacing:2px;
+    color:pink;
 }
 .item > img{
     margin:5vh auto 10vh auto;
     width:80vh;
     border-radius:5vh;
-}
-
-.carousel_title > p > span{
-    font-size:26px;
-    color:pink;
 }
 
 /* for js class*/
