@@ -7,20 +7,20 @@
 	<meta content="width=device-width, initial-scale=1.0" name="viewport">
 	<title>panel-test</title>
 	<link href="images/favicon.ico" rel="shortcut icon">
-
-	<!-- jquery CDN
+	
+	<!-- css -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/panel.css">
+	<link rel="stylesheet" type="text/css" href="css/panel_responsive.css">
+	<!-- javascript -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-	-->
+	<script src="js/bootstrap.min.js"></script>
+	
 	<!-- anytools-->
 	<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900|Raleway:400,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 	
-	<!-- css
-	<link rel="stylesheet" type="text/css" href="css/reset.css">
-	-->
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="css/panel.css">
-	<link rel="stylesheet" type="text/css" href="css/panel_responsive.css">
+
 </head>
 <body>
 	<!-- 左の余白を消すためのwrap -->
@@ -92,7 +92,7 @@
 			</div>
 		</div>
 		<div class="main_focus_items row">
-			<div class="item main_foucsL col-sm-12">
+			<div class="main_foucsL col-sm-12">
 				<div class="object col-sm-6 col-xs-12">
 					<h2>Life Works <i class=" fa fa-hand-o-right" aria-hidden="true"></i></h2> 
 				</div>
@@ -140,6 +140,39 @@
 			</div>
 		</div>
 		<div class="main_focus_items_under"></div>
+		
+		<!-- code from https://v4-alpha.getbootstrap.com/components/carousel/ -->
+		<div class="container">
+			<div class="carousel_title">
+				<p>Cat is so <span><em>cute</em> <i class="fa fa-heart-o" aria-hidden="true"></i></span></p>
+			</div>
+			<div id="carousel_01" class="carousel slide" data-ride="carousel">
+			    <ol class="carousel-indicators">
+			        <li data-target="#carousel_01" data-slide-to="0" class="active"></li>
+			        <li data-target="#carousel_01" data-slide-to="1"></li>
+			        <li data-target="#carousel_01" data-slide-to="2"></li>
+			    </ol>
+			    <div class="carousel-inner">
+			        <div class="item active">
+			            <img src="images/topcat.jpg" alt="サンプル画像１" >
+			        </div>
+			        <div class="item">
+			            <img src="images/topcat.jpg" alt="サンプル画像２" >
+			        </div>
+			         <div class="item">
+			            <img src="images/topcat.jpg" alt="サンプル画像３" >
+			        </div>
+			    </div>
+			    <a class="left carousel-control" href="#carousel_01" role="button" data-slide="prev">
+		    		<span class="glyphicon glyphicon-chevron-left"></span>
+			    </a>
+			    <a class="right carousel-control" href="#carousel_01" role="button" data-slide="next">
+			    	<span class="glyphicon glyphicon-chevron-right"></span>
+			    </a>
+			</div>
+		</div>
+		
+		
 		<div class="main_form container">
 		    <form>
 		        <div class="form-group">
@@ -186,7 +219,9 @@
 
     </footer>
     </div>
+    <!--
     <script type="text/javascript" src="js/jquery-3.2.1.slim.min.js"></script>
+    -->
     <script type="text/javascript" src="js/panel.js"></script>
 </body>
 </html>

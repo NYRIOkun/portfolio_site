@@ -1,5 +1,6 @@
 
 $(function(){
+    var $CSS = $(this).css;
     $(".main_showcase_img > img").hover(
         function(){
            $(this). css("opacity","0.5");
