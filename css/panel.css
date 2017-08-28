@@ -5,6 +5,15 @@ body{
 .overflow_hide_wrap{
     overflow: hidden;
 }
+a,
+a:link,
+a:visited,
+a:hover,
+a:active
+{
+    text-decoration:none;
+    color:#FFF;
+}
 button{
     color:#777;
 }
@@ -164,6 +173,7 @@ header{
     padding-left:25vh;
 }
 .footer_container > .row > icon{
+    color :#DDD;
     opacity: 1;
 }
 .footer_container > .row > icon:hover{
