@@ -104,11 +104,16 @@ header{
 .space_box{
     position:absolute;
 }
+.main_form_text{
+    letter-spacing: 2px;
+    padding:0 0 20vh 0;
+    text-align: center;
+}
 .main_focus_items_under{
     padding:0 0 6vh 0;
 }
 .main_form{
-    padding:20vh 5vh 20vh 10vh;
+    padding:0 5vh 20vh 10vh;
     background-color:#999;
 }
 /*footer{
@@ -133,6 +138,7 @@ header{
 }
 /* for carousel */
 .carousel_section{
+    padding-top:30vh;
     padding-bottom:20vh;
 }
 .carousel_title{

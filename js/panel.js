@@ -24,6 +24,21 @@ $(function(){
         function(){
            $(this). css("opacity","1").removeClass('hover_to_big'); 
         });
+        
+    //scroll動作
+     $(".to_focus").click(
+        function(){
+           $("html,body").animate({scrollTop:$('.main_back-focus_text').offset().top});
+        });
+    $(".to_cute").click(
+        function(){
+           $("html,body").animate({scrollTop:($('.carousel_section').offset().top) + 150});
+        });
+    $(".to_form").click(
+        function(){
+           $("html,body").animate({scrollTop:$('.main_form').offset().top});
+        });
+    
     
     /*  code from http://weboook.blog22.fc2.com/ */
     $('.box,img,.slidetext,.focus_text').css("opacity","0");
