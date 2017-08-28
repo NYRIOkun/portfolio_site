@@ -26,20 +26,26 @@ $(function(){
         });
         
     //scroll動作
-     $(".to_focus").click(
+    $(".scroller").on('click',
         function(){
-           $("html,body").animate({scrollTop:$('.main_back-focus_text').offset().top});
-        });
-    $(".to_cute").click(
-        function(){
-           $("html,body").animate({scrollTop:($('.carousel_section').offset().top) + 150});
-        });
-    $(".to_form").click(
-        function(){
-           $("html,body").animate({scrollTop:$('.main_form').offset().top});
-        });
-    
-    
+            var get_class =  $(this).attr("name");
+            switch(get_class){
+                case "to_focus":
+                    var $ins_class = $('.main_back-focus_text');
+                    break;
+                case "to_cute":
+                    var $ins_class = $('.carousel_title');
+                    break;
+                case "to_form":
+                    var $ins_class = $('.main_form');
+                    break;
+                case "to_top":
+                    var $ins_class = $('.main');
+                    break;
+            }
+             $("html,body").animate({scrollTop:$ins_class.offset().top});
+    });
+
     /*  code from http://weboook.blog22.fc2.com/ */
     $('.box,img,.slidetext,.focus_text').css("opacity","0");
     $(window).scroll(function (){
