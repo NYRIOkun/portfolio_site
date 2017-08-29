@@ -30,10 +30,10 @@ header{
     padding:10px 0 5px 0;
     box-shadow: 0 8px 15px #444;
 }
-
 .header_logo,
 .header_menu{
     padding:2vh 0 1vh 0;
+    cursor:pointer;
     transition:.3s;
 }
 .main_top{
@@ -175,6 +175,7 @@ header{
 .footer_container > .row > icon{
     color :#DDD;
     opacity: 1;
+    cursor:pointer;
 }
 .footer_container > .row > icon:hover{
     opacity: .5;

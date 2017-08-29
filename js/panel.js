@@ -25,7 +25,7 @@ $(function(){
            $(this). css("opacity","1").removeClass('hover_to_big'); 
         });
         
-    //scroll動作
+    //scroll action
     $(".scroller").on('click',
         function(){
             var get_class =  $(this).attr("name");
