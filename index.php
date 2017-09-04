@@ -92,7 +92,7 @@
 				<div class="space_R col-sm-6 col-xs-12">
 					<div class="space_box">
 						<h2>Focus</h2>
-						<p>any content</p>
+						<p class="hover_to_show">any content</p>
 					</div>
 				</div>
 			</div>
@@ -103,7 +103,7 @@
 				<div class="space_L col-sm-6 col-sm-pull-6 col-xs-12">
 					<div class="space_box">
 						<h2>Focus</h2>
-						<p>any content</p>
+						<p  class="hover_to_show">any content</p>
 					</div>
 				</div>
 				
@@ -115,7 +115,7 @@
 				<div class="space_R col-sm-6 col-xs-12">
 					<div class="space_box">
 						<h2>Focus</h2>
-						<p>any content</p>
+						<p class="hover_to_show">any content</p>
 					</div>
 				</div>
 			</div>
@@ -126,7 +126,7 @@
 				<div class="space_L col-sm-6 col-sm-pull-6 col-xs-12">
 					<div class="space_box">
 						<h2>Focus</h2>
-						<p>any content</p>
+						<p class="hover_to_show">any content</p>
 					</div>
 				</div>
 				

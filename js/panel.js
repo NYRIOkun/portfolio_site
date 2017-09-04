@@ -1,13 +1,32 @@
 
 $(function(){
     var $CSS = $(this).css;
-    $(".main_showcase_img > img").hover(
+    $(".main_showcase_img > img , .to_otherSample").hover(
         function(){
            $(this). css("opacity","0.5");
         },
         function(){
            $(this). css("opacity","1"); 
         });
+    
+    //extend_header
+    $(".header_bar").click(
+        function(){
+           $('.extend_header').slideToggle('slow');
+        });
+    
+        
+    $(".space_L , .space_R").find('div').slideUp();
+    $(".space_L , .space_R").hover(
+        function(){
+            $("div")
+           $(this).find('div').delay(10).fadeIn(100);
+        },
+        function(){
+           $(this).find('div').fadeOut(); 
+        });
+    });
+    
     
     $(".slidetext").hover(
         function(){
@@ -75,4 +94,3 @@ $(function(){
     }
 });
     
-});

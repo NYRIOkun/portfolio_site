@@ -27,15 +27,29 @@ header{
     right:0;
     z-index: 10;
     background-color:rgba(0,0,0,.6);
-    padding:10px 0 5px 0;
+    padding:0 0 5px 0;
     box-shadow: 0 8px 15px #444;
 }
 .header_logo,
-.header_menu{
-    padding:2vh 0 1vh 0;
+.header_menu,
+.header_bar{
+    padding:3vh 0 1vh 0;
     cursor:pointer;
     transition:.3s;
 }
+.extend_header{
+    display:none;
+    top:0;
+    background-color: WHITE;
+    color:#888;
+    padding:4vh 0 4vh 0;
+    font-family: cursive;
+    font-size:4vh;
+}
+.to_otherSample{
+    transition:.5s;
+}
+
 .main_top{
     padding:35vh 0 15vh 0;
     text-align:center;
@@ -222,4 +236,13 @@ header{
 }
 .space_L:hover::after {
   width: 0;
+}
+.hover_to_show{
+    color:#000;
+}
+.invisible{
+    visibility: hidden;
+}
+.invisible_more{
+    display :none;
 }
