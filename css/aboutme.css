@@ -1,0 +1,184 @@
+/** 0.elements **/
+body{
+    color :#DDD;
+    background-color: #EFF;
+    font-family: cursive, serif;
+}
+.overflow_hide_wrap{
+    overflow: hidden;
+}
+a,
+a:link,
+a:visited,
+a:hover,
+a:active{
+    text-decoration:none;
+    color:#888;
+}
+button{
+    color:#777;
+}
+h3{
+    border-bottom:solid 1px #DDD;
+    border-left:dashed 1px #DDD;
+    padding-bottom:1vh;
+    padding-left:5vh;
+}
+ul {
+    list-style:none;
+}
+.exmenu li{
+    transition:1s;
+    margin-bottom:1vh;
+    border:1px dashed #FFF;
+}
+.exmenu li:hover{
+    opacity: .5;
+    transition:1s;
+    border:1px dashed #888;
+    border-radius: 2vh;
+    padding-top:0;
+    padding-bottom:0;
+    padding-left:6vh;
+}
+i{
+    transition:.3s;
+}
+i:hover{
+    opacity: .7;
+    transition:.3s;
+}
+img{
+    width:100%;
+    height:auto;
+    transition:.3s;
+}
+img:hover{
+    transition:.3s;
+    box-shadow: 3vh 3vh 10vh #888;
+}
+/** 1.header **/
+header{
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    z-index: 10;
+    color:#888;
+    background-color:rgba(255,255,255,.6);
+    padding:3vh 0 1vh 0;
+    box-shadow: 0 1px 4px #444;
+}
+.header_menu{
+    padding-top:2vh;
+    padding-bottom:1vh;
+}
+.extend_header{
+    display:none;
+    top:0;
+    background-color:rgba(255,255,255,.3);
+    color:#888;
+    padding:4vh 0 4vh 0;
+    font-family: cursive;
+    font-size:4vh;
+}
+.header_logo_font {
+    font-family: cursive, serif;
+    font-size:15px;
+    letter-spacing: 1vh;
+    line-height:0.8em;
+}
+/** 2.main **/
+.main{
+    color:#666;
+}
+.top_message{
+    color:#555;
+    text-align: center;
+    background-color: rgba(255,255,255,0.4);
+    letter-spacing: 4vh;
+    padding-top:30vh;
+    padding-bottom:10vh;
+    border:solid 1px #888;
+}
+/** 2.1.main_contents **/
+.main_container{
+    border:solid 1px #888;
+    padding-top:3vh;
+    padding-right:5vh;
+    padding-bottom:20vh;
+    padding-left:3vh;
+    background-color: white;
+    box-shadow: 0px 1px 15px;
+}
+.section{
+    padding-bottom:10vh;
+}
+.java_font{
+    font-family: 'Vidaloka', serif;
+    font-size:48px;
+    letter-spacing: -6px;
+    padding-left:-3vh;
+    text-shadow: 1px 1px 3px;
+}
+.skill_child{
+    text-align: center;
+    margin-top:5vh;
+    margin-bottom:5vh;
+}
+.profile{
+    padding-top:5vh;
+}
+.profile_text{
+    text-align: center;
+    padding:2vh;
+    line-height: 1.5em; 
+}
+/** 2.2.side_bar **/
+.side-bar_container{
+    border:solid 1px #888;
+    padding-right:2vh;
+    padding-bottom:80vh;
+    padding-left:2vh;
+    background-color: white;
+}
+.side-bar_photo{
+    padding:4vh;
+    margin-top:3vh;
+    border:solid 1px #888;
+    background-color: white;
+}
+
+/** 3.footer**/
+footer{
+    background-color: #FFF;
+}
+.footer_container{
+    padding-top:2vh;
+    margin-top:20vh;
+    border:solid 1px #888;
+}
+.footer_logo,
+.site_map{
+    padding-top:2vh;
+    padding-bottom:2vh;
+    border:solid 1px #888;
+}
+.footer_logo_container,
+.site_map_container{
+    padding-top:20vh;
+    padding-bottom:20vh;
+    border:solid 1px #888;
+}
+
+/**  4.other **/
+/*グリッド表示用class*/
+.sample_box{
+    padding-top:2vh;
+    padding-bottom:2vh;
+    margin-bottom:1vh;
+    border:solid 1px #888;
+}/*********************/
+.space{
+    padding:1vh;
+}

@@ -1,0 +1,41 @@
+body{
+    color :#DDD;
+    background-color: #000;
+}
+.overflow_hide_wrap{
+    overflow: hidden;
+}
+a,
+a:link,
+a:visited,
+a:hover,
+a:active
+{
+    text-decoration:none;
+    color:#FFF;
+}
+button{
+    color:#777;
+}
+nav ul {
+    list-style:none;
+}
+header{
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    z-index: 10;
+    background-color:rgba(0,0,0,.6);
+    padding:0 0 5px 0;
+    box-shadow: 0 8px 15px #444;
+}
+.main{
+    padding:16vh 0 0 4vh;
+}
+input{
+    margin:0 0 2vh 0;
+}
+.footer_me{
+    padding-top:3vh;
+}
