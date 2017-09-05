@@ -37,10 +37,24 @@ header{
     cursor:pointer;
     transition:.3s;
 }
+.exmenu li{
+    transition:1s;
+    margin-bottom:1vh;
+    border:1px dashed #FFF;
+}
+.exmenu li:hover{
+    opacity: .5;
+    transition:1s;
+    border:1px dashed #888;
+    border-radius: 2vh;
+    padding-top:0;
+    padding-bottom:0;
+    padding-left:6vh;
+}
 .extend_header{
     display:none;
     top:0;
-    background-color: WHITE;
+    background-color:rgba(255,255,255,.3);
     color:#888;
     padding:4vh 0 4vh 0;
     font-family: cursive;
