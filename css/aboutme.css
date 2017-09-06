@@ -252,8 +252,12 @@ footer{
     background-size:cover;
 }
 .portfolio{
+    margin-top:20vh;
+    margin-bottom:20vh;
     color:#444;
     font-size:40vh;
+    background-color: rgba(0,0,0,.3);
+    box-shadow: 5px 0px 20px #FFF;
 }
 .portfolio_flame{
     margin:5vh 10vh 5vh 10vh;
@@ -265,14 +269,33 @@ footer{
     box-shadow: 0px 100px 200px #FFF;
 }
 .section_aboutme,
-.section_gallery,
-.section_form{
-    height:40vh;
-    margin-bottom:12px;
+.section_gallery{
+    height:320px;
+    margin-bottom:2vh;
     text-align: center;
 }
-.section_aboutme > img{
+/** 2.ohter **/
+.curtain_mini_index,
+.curtain_mini_index_2,
+.curtain_mini_index_3{
+    position:fixed;
+    border-radius: 100%;
+    background-color: rgba(255,255,255,.3);
 }
-.panels{
-    height:25vh;
+.curtain_mini_index{
+    top:50vh;
+    left:10vh;
+    padding:6vh;
+    background-color: rgba(255,255,255,.1);
+}
+.curtain_mini_index_2{
+    top:70vh;
+    right:10vh;
+    padding:4vh;
+    background-color: rgba(255,255,255,.5);
+}
+.curtain_mini_index_3{
+    top:10vh;
+    right:30vh;
+    padding:10vh;
 }
