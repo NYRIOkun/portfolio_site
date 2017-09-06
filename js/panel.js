@@ -12,7 +12,7 @@ $(function(){
     //extend_header
     $(".header_bar").click(
         function(){
-           $('.extend_header').slideToggle('slow');
+           $('.extend_header').slideToggle();
         });
     
         
