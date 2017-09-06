@@ -1,8 +1,10 @@
 /** 0.elements **/
 body{
     color :#DDD;
-    background-color: #EFF;
-    font-family: cursive, serif;
+    background-color: #FFF;
+}
+html,body{
+    font-family: cursive,"ヒラギノ角ゴ Pro W3","メイリオ",sans-serif;
 }
 .overflow_hide_wrap{
     overflow: hidden;
@@ -49,7 +51,7 @@ i:hover{
     transition:.3s;
 }
 img{
-    width:100%;
+    width:80%;
     height:auto;
     transition:.3s;
 }
@@ -88,6 +90,9 @@ header{
     letter-spacing: 1vh;
     line-height:0.8em;
 }
+.header_bar{
+    padding-top:1vh;
+}
 /** 2.main **/
 .main{
     color:#666;
@@ -95,7 +100,7 @@ header{
 .top_message{
     color:#555;
     text-align: center;
-    background-color: rgba(255,255,255,0.4);
+    background-color: rgba(255,255,255,.8);
     letter-spacing: 4vh;
     padding-top:30vh;
     padding-bottom:10vh;
@@ -158,17 +163,16 @@ footer{
     margin-top:20vh;
     border:solid 1px #888;
 }
-.footer_logo,
 .site_map{
     padding-top:2vh;
     padding-bottom:2vh;
     border:solid 1px #888;
 }
-.footer_logo_container,
 .site_map_container{
-    padding-top:20vh;
-    padding-bottom:20vh;
+    padding-top:2vh;
+    padding-bottom:2vh;
     border:solid 1px #888;
+    box-shadow: 2px 2px 3px #888;
 }
 
 /**  4.other **/
@@ -181,4 +185,32 @@ footer{
 }/*********************/
 .space{
     padding-top:10vh;
+}
+/** トップのオブジェクト用 **/
+.curtain_L{
+    position:absolute;
+    top:-300vh;
+    left:-20vh;
+    padding:0 15vh 600vh 15vh;
+    border-radius: 100%;
+    background-color: black;
+    z-index:-1;
+}
+.curtain_mini{
+    position:fixed;
+    top:20vh;
+    left:1vh;
+    padding:6vh;
+    border-radius: 100%;
+    background-color: rgba(0,255,255,.8);
+    z-index: -1
+}
+.curtain_mini_fix{
+    position:absolute;
+    top:40vh;
+    right:1vh;
+    padding:6vh;
+    border-radius: 100%;
+    background-color: rgba(255,0,255,.8);
+    z-index: -1
 }
