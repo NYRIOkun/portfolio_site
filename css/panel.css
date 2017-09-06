@@ -37,6 +37,13 @@ header{
     cursor:pointer;
     transition:.3s;
 }
+.header_logo{
+    font-family: cursive,"ヒラギノ角ゴ Pro W3","メイリオ",sans-serif;
+}
+.header_bar{
+    padding-top:6vh;
+    padding-bottom:2vh;
+}
 .exmenu li{
     transition:1s;
     margin-bottom:1vh;

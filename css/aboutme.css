@@ -183,9 +183,13 @@ footer{
 }
 .site_map_container{
     margin-top:5vh;
-    
-    padding:4vh;
+    padding-top:7vh;
+    padding-bottom:5vh;
     box-shadow: 3px 0px 12px #888;
+}
+.site_map_container_wid{
+    text-align: center;
+    width:60%;
 }
 .end_logo{
     text-align: right;
@@ -237,12 +241,12 @@ footer{
  * 2.00 for index.html css
  *
  */
+ 
+/** 1.main**/
 .index_wrap{
-    position:fixed;
-    top:0;
-    left:0;
-    right:0;
-    bottom:0;
+    background-position: center center;
+    background-attachment: fixed;
+    background-color: #464646;
     background-image: url("../images/Gradation.jpg");
     background-repeat: no-repeat; 
     background-size:cover;
@@ -251,11 +255,24 @@ footer{
     color:#444;
     font-size:40vh;
 }
-.section_aboutme{
-    height:100vh;
-    border:1px #888 solid;
+.portfolio_flame{
+    margin:5vh 10vh 5vh 10vh;
+    width:40vh;
+    border-radius: 100%;
+    text-align: center;
+    background-color: #EEE;
+    letter-spacing: -3px;
+    box-shadow: 0px 100px 200px #FFF;
+}
+.section_aboutme,
+.section_gallery,
+.section_form{
+    height:40vh;
+    margin-bottom:12px;
+    text-align: center;
+}
+.section_aboutme > img{
 }
 .panels{
-    height:50vh;
-    border:1px #888 solid;
+    height:25vh;
 }
