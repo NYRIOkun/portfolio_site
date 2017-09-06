@@ -1,3 +1,9 @@
+/**
+ *
+ * 1.00 for aboutme.html css
+ *
+ */
+ 
 /** 0.elements **/
 body{
     color :#DDD;
@@ -223,4 +229,33 @@ footer{
     border-radius: 100%;
     background-color: rgba(255,0,255,.8);
     z-index: -1
+}
+
+
+/**
+ *
+ * 2.00 for index.html css
+ *
+ */
+.index_wrap{
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-image: url("../images/Gradation.jpg");
+    background-repeat: no-repeat; 
+    background-size:cover;
+}
+.portfolio{
+    color:#444;
+    font-size:40vh;
+}
+.section_aboutme{
+    height:100vh;
+    border:1px #888 solid;
+}
+.panels{
+    height:50vh;
+    border:1px #888 solid;
 }
