@@ -58,11 +58,15 @@ i:hover{
 }
 img{
     height:auto;
+    border:dotted 1px #FFF;
+    border-radius: 10%;
     transition:.3s;
 }
 img:hover{
-    transition:.3s;
+    border:dashed 5px #FFF;
+    border-radius: 10%;
     box-shadow: 3vh 3vh 10vh #888;
+    transition:.3s;
 }
 /** 1.header **/
 header{
@@ -273,6 +277,9 @@ footer{
     height:320px;
     margin-bottom:2vh;
     text-align: center;
+}
+.section_wrap{
+    margin-bottom:30vh;
 }
 /** 2.ohter **/
 .curtain_mini_index,

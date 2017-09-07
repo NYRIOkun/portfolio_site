@@ -3,7 +3,7 @@ $(function(){
     var $CSS = $(this).css;
     $(".main_showcase_img > img , .to_otherSample").hover(
         function(){
-           $(this). css("opacity","0.5");
+           $(this). css("opacity","0.7");
         },
         function(){
            $(this). css("opacity","1"); 
@@ -66,7 +66,7 @@ $(function(){
     });
 
     /*  code from http://weboook.blog22.fc2.com/ */
-    $('.box,img,.slidetext,.focus_text').css("opacity","0");
+    $('.box,.img-thumbnail,.slidetext,.focus_text').css("opacity","0");
     $(window).scroll(function (){
     $('.box,img,.slidetext,.focus_text').each(function(){
       var imgPos = $(this).offset().top;    
