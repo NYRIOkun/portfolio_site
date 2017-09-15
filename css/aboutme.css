@@ -1,10 +1,8 @@
 /**
- *
- * 1.00 for aboutme.html css
- *
- */
- 
-/** 0.elements **/
+*
+* 0.0.elements 
+*
+**/
 body{
     color :#DDD;
     background-color: #FFF;
@@ -14,6 +12,9 @@ html,body{
 }
 .overflow_hide_wrap{
     overflow: hidden;
+}
+.main{
+    color:#666;
 }
 a,
 a:link,
@@ -68,7 +69,14 @@ img:hover{
     box-shadow: 3vh 3vh 10vh #888;
     transition:.3s;
 }
-/** 1.header **/
+
+/**
+ *
+ * 1.00 for aboutme.html css
+ *
+ **/
+ 
+/** 1.1.header **/
 header{
     position:fixed;
     top:0;
@@ -102,10 +110,7 @@ header{
 .header_bar{
     padding-top:1vh;
 }
-/** 2.main **/
-.main{
-    color:#666;
-}
+/** 1.2.main **/
 .top_message{
     color:#555;
     text-align: center;
@@ -114,7 +119,7 @@ header{
     padding-top:30vh;
     padding-bottom:10vh;
 }
-/** 2.1.main_contents **/
+/** 1.2.1.main_contents **/
 .main_container{
     border:solid 1px #888;
     padding-top:3vh;
@@ -167,7 +172,7 @@ header{
     width:80%;
     height:auto;
 }
-/** 2.2.side_bar **/
+/** 1.2.2.side_bar **/
 .side-bar_container{
     padding-right:2vh;
     padding-bottom:80vh;
@@ -181,7 +186,7 @@ header{
     background-color: white;
 }
 
-/** 3.footer**/
+/** 1.3.footer**/
 footer{
     background-color: #FFF;
 }
@@ -246,7 +251,7 @@ footer{
  *
  */
  
-/** 1.main**/
+/** 2.1.main**/
 .index_wrap{
     background-position: center center;
     background-attachment: fixed;
@@ -264,11 +269,12 @@ footer{
     box-shadow: 5px 0px 20px #FFF;
 }
 .portfolio_flame{
+    color:#DDD;
     margin:5vh 10vh 5vh 10vh;
     width:40vh;
     border-radius: 100%;
     text-align: center;
-    background-color: #EEE;
+    /*background-color: #EEE;*/
     letter-spacing: -3px;
     box-shadow: 0px 100px 200px #FFF;
 }
@@ -281,7 +287,7 @@ footer{
 .section_wrap{
     margin-bottom:30vh;
 }
-/** 2.ohter **/
+/** 2.2.ohter **/
 .curtain_mini_index,
 .curtain_mini_index_2,
 .curtain_mini_index_3{
@@ -305,4 +311,26 @@ footer{
     top:10vh;
     right:30vh;
     padding:10vh;
+}
+
+
+/**
+ *
+ * 3.00 for Mahjong.php css
+ *
+ **/
+ .blog-flame{
+     padding:21vh 6vh 6vh 6vh;
+ }
+ .blog-first{
+    margin-top:4vh;
+ }
+ .blog-text{
+    padding:4vh 3vh 0 3vh;
+ }
+ .blockquote_container{
+    margin-top:4vh;
+    margin-bottom:4vh;
+    padding:1vh 0vh 2vh 3vh;
+    box-shadow: inset 0px -2px 5px #888;
 }
