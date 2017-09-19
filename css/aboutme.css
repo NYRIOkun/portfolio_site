@@ -327,10 +327,42 @@ footer{
  }
  .blog-text{
     padding:4vh 3vh 0 3vh;
+    margin-bottom: 10vh;
+ }
+ .cnfu_image{
+    width:50%;
+ }
+ .top_mahjong{
+    width:60%;
+    margin-bottom : 8vh;
+    border-radius: 0;
+    border: 0px solid #888;
+ }
+ .top_mahjong:hover{
+    border-radius: 0;
+    border: 0px solid #888;
  }
  .blockquote_container{
     margin-top:4vh;
     margin-bottom:4vh;
     padding:1vh 0vh 2vh 3vh;
     box-shadow: inset 0px -2px 5px #888;
+ }
+ .image_div{
+     text-align: center
+ }
+@media screen and (max-width:560px){
+    .blog-flame{
+         padding:21vh 1vh 6vh 1vh;
+     }
+    .blog-text{
+        padding:4vh 0vh 0vh 0vh;
+    }
+    .blockquote_container{
+        margin-top:4vh;
+        margin-bottom:4vh;
+        padding:1vh 0vh 7vh 0vh;
+        box-shadow: inset 0px -2px 5px #888;
+     }
+
 }
